@@ -1,0 +1,146 @@
+body {
+    background: black;
+    padding: 0;
+    margin: 0;
+}
+circle {
+    fill: none;             
+    stroke-width: 1;
+    stroke-linecap: round;
+}
+.g { 
+  -webkit-transform-origin: center center; 
+  -moz-transform-origin: center center; 
+  transform-origin: center center;
+  -webkit-animation: anim 108s ease-in-out infinite; 
+  -moz-animation: anim 108s ease-in-out infinite; 
+  animation: anim 108s ease-in-out infinite; 
+}    
+.c2 {
+  -webkit-transform-origin: center center;
+  -moz-transform-origin: center center;
+  transform-origin: center center;
+  -webkit-transform: rotate(5deg); 
+  -moz-transform: rotate(5deg); 
+  transform: rotate(5deg); 
+} 
+ 
+@-webkit-keyframes anim { 
+  0%     { -webkit-transform:rotate(  0deg)}
+  2.778% { -webkit-transform:rotate( 10deg)}
+  5.56%  { -webkit-transform:rotate( 20deg)}
+  8.33%  { -webkit-transform:rotate( 30deg)}
+  11.11% { -webkit-transform:rotate( 40deg)}
+  13.89% { -webkit-transform:rotate( 50deg)}
+  16.67% { -webkit-transform:rotate( 60deg)}
+  19.44% { -webkit-transform:rotate( 70deg)}
+  22.22% { -webkit-transform:rotate( 80deg)}
+  25%    { -webkit-transform:rotate( 90deg)}
+  27.78% { -webkit-transform:rotate(100deg)}
+  30.56% { -webkit-transform:rotate(110deg)}
+  33.33% { -webkit-transform:rotate(120deg)}
+  36.11% { -webkit-transform:rotate(130deg)}
+  38.89% { -webkit-transform:rotate(140deg)}
+  41.67% { -webkit-transform:rotate(150deg)}
+  44.44% { -webkit-transform:rotate(160deg)}
+  47.22% { -webkit-transform:rotate(170deg)}
+  50%    { -webkit-transform:rotate(180deg)}
+  52.78% { -webkit-transform:rotate(190deg)}
+  55.56% { -webkit-transform:rotate(200deg)}
+  58.33% { -webkit-transform:rotate(210deg)}
+  61.11% { -webkit-transform:rotate(220deg)}
+  63.89% { -webkit-transform:rotate(230deg)}
+  66.67% { -webkit-transform:rotate(240deg)}
+  69.44% { -webkit-transform:rotate(250deg)}
+  72.22% { -webkit-transform:rotate(260deg)}
+  75%    { -webkit-transform:rotate(270deg)}
+  77.78% { -webkit-transform:rotate(280deg)}
+  80.56% { -webkit-transform:rotate(290deg)}
+  83.33% { -webkit-transform:rotate(300deg)}
+  86.11% { -webkit-transform:rotate(310deg)}
+  88.89% { -webkit-transform:rotate(320deg)}
+  91.67% { -webkit-transform:rotate(330deg)}
+  94.44% { -webkit-transform:rotate(340deg)}
+  97.22% { -webkit-transform:rotate(350deg)}
+  100%   { -webkit-transform:rotate(360deg)}
+}
+@-moz-keyframes anim { 
+  0%     { -moz-transform:rotate(  0deg)}
+  2.778% { -moz-transform:rotate( 10deg)}
+  5.56%  { -moz-transform:rotate( 20deg)}
+  8.33%  { -moz-transform:rotate( 30deg)}
+  11.11% { -moz-transform:rotate( 40deg)}
+  13.89% { -moz-transform:rotate( 50deg)}
+  16.67% { -moz-transform:rotate( 60deg)}
+  19.44% { -moz-transform:rotate( 70deg)}
+  22.22% { -moz-transform:rotate( 80deg)}
+  25%    { -moz-transform:rotate( 90deg)}
+  27.78% { -moz-transform:rotate(100deg)}
+  30.56% { -moz-transform:rotate(110deg)}
+  33.33% { -moz-transform:rotate(120deg)}
+  36.11% { -moz-transform:rotate(130deg)}
+  38.89% { -moz-transform:rotate(140deg)}
+  41.67% { -moz-transform:rotate(150deg)}
+  44.44% { -moz-transform:rotate(160deg)}
+  47.22% { -moz-transform:rotate(170deg)}
+  50%    { -moz-transform:rotate(180deg)}
+  52.78% { -moz-transform:rotate(190deg)}
+  55.56% { -moz-transform:rotate(200deg)}
+  58.33% { -moz-transform:rotate(210deg)}
+  61.11% { -moz-transform:rotate(220deg)}
+  63.89% { -moz-transform:rotate(230deg)}
+  66.67% { -moz-transform:rotate(240deg)}
+  69.44% { -moz-transform:rotate(250deg)}
+  72.22% { -moz-transform:rotate(260deg)}
+  75%    { -moz-transform:rotate(270deg)}
+  77.78% { -moz-transform:rotate(280deg)}
+  80.56% { -moz-transform:rotate(290deg)}
+  83.33% { -moz-transform:rotate(300deg)}
+  86.11% { -moz-transform:rotate(310deg)}
+  88.89% { -moz-transform:rotate(320deg)}
+  91.67% { -moz-transform:rotate(330deg)}
+  94.44% { -moz-transform:rotate(340deg)}
+  97.22% { -moz-transform:rotate(350deg)}
+  100%   { -moz-transform:rotate(360deg)}
+}
+@keyframes anim { 
+  0%     { transform:rotate(  0deg)}
+  2.778% { transform:rotate( 10deg)}
+  5.56%  { transform:rotate( 20deg)}
+  8.33%  { transform:rotate( 30deg)}
+  11.11% { transform:rotate( 40deg)}
+  13.89% { transform:rotate( 50deg)}
+  16.67% { transform:rotate( 60deg)}
+  19.44% { transform:rotate( 70deg)}
+  22.22% { transform:rotate( 80deg)}
+  25%    { transform:rotate( 90deg)}
+  27.78% { transform:rotate(100deg)}
+  30.56% { transform:rotate(110deg)}
+  33.33% { transform:rotate(120deg)}
+  36.11% { transform:rotate(130deg)}
+  38.89% { transform:rotate(140deg)}
+  41.67% { transform:rotate(150deg)}
+  44.44% { transform:rotate(160deg)}
+  47.22% { transform:rotate(170deg)}
+  50%    { transform:rotate(180deg)}
+  52.78% { transform:rotate(190deg)}
+  55.56% { transform:rotate(200deg)}
+  58.33% { transform:rotate(210deg)}
+  61.11% { transform:rotate(220deg)}
+  63.89% { transform:rotate(230deg)}
+  66.67% { transform:rotate(240deg)}
+  69.44% { transform:rotate(250deg)}
+  72.22% { transform:rotate(260deg)}
+  75%    { transform:rotate(270deg)}
+  77.78% { transform:rotate(280deg)}
+  80.56% { transform:rotate(290deg)}
+  83.33% { transform:rotate(300deg)}
+  86.11% { transform:rotate(310deg)}
+  88.89% { transform:rotate(320deg)}
+  91.67% { transform:rotate(330deg)}
+  94.44% { transform:rotate(340deg)}
+  97.22% { transform:rotate(350deg)}
+  100%   { transform:rotate(360deg)}
+}
+
+
